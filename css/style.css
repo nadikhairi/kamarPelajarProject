@@ -1,0 +1,372 @@
+html,body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+h1{
+  font-family: 'Open Sans', sans-serif;
+}
+h4{
+  font-family: 'Open Sans', sans-serif !important;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+.jumbotron{
+  padding: 0px !important;
+  margin: 0px !important;
+  height: 100vh !important;
+}
+
+.container-fluid{
+  height: 100%;
+  background-image: url(../img/background1.jpg);
+  background-size: cover;
+}
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+
+}
+.jumboHeader{
+  font-family: 'Open Sans', sans-serif;
+   text-shadow: 0 0 10px #fff
+}
+.btn1{
+  font-family: 'Open Sans', sans-serif;
+}
+.btn2{
+  font-family: 'Open Sans', sans-serif;
+  width: 149px;
+  border-radius: 0px !important;
+  border-color: transparent;
+}
+
+.modal-body{
+  padding: 0px !important;
+  height: 34px;
+}
+.rowModal1{
+  width:298px!important;
+  margin: 0px !important;
+}
+.rowModal2{
+  width: 149px;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.colModal{
+  width: 149px !important;
+  padding: 0px !important;
+}
+.modalFooter1{
+  padding: 5px !important;
+}
+.modalFooter2{
+  font-size: 12px!important;
+  margin: 0px !important;
+}
+
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  background-color: #5BC0DE
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+
+}
+
+.loginmodal-submit:hover {
+
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.login-help{
+  font-size: 12px;
+}
+
+.modalBody1{
+  height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300px){
+ .jumbotron{
+   padding: 0px !important;
+   margin: 0px !important;
+ }
+ .vertical-center{
+   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+   min-height: 100vh; /* These two lines are counted as one :-)       */
+   display: flex;
+   align-items: center;
+ }
+
+}
+
+@media screen and (min-width: 768px){
+ .jumbotron{
+   padding: 0px !important;
+   margin: 0px !important;
+ }
+ .vertical-center{
+   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+   min-height: 100vh; /* These two lines are counted as one :-)       */
+   display: flex;
+   align-items: center;
+ }
+}
+
+
+/* SignUp Guest & Host */
+
+label{
+font-family: 'Open Sans', sans-serif !important;
+}
+
+.SignUp{
+  margin-bottom: 20px;
+}
+.wellSignUp{
+  font-family: 'Open Sans', sans-serif !important;
+  margin-top: 20px;
+
+}
+
+.panelSignUp{
+  margin-top: 20px;
+  width:100%;
+  height:auto;
+}
+.fileSignUp{
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 20px;
+  color: black;
+  font-weight: normal !important;
+  width: 100% !important;
+}
+
+.uploadSignUp{
+  margin-top: 10px;
+  width: 100%;
+}
+.submitSignUp{
+  width:100%;
+}
+.imgGuest{
+  width: 100%;
+  height:auto
+}
+
+/*Learn More Page*/
+.bodyLearnMore{
+  background-image: url(../img/backgroundLearnMore.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  width: 100%;
+  z-index: 1
+  font-family: 'Open Sans', sans-serif !important;
+  margin-bottom: 60px
+}
+.logoPPI{
+  width:300px;
+  margin-top: 60px !important;
+}
+.introKP{
+  margin-top: 30px;
+
+}
+.titleIntroKP{
+  font-family: 'Open Sans', sans-serif !important;
+  text-shadow: 0 0 10px #fff;
+  font-size: 70px;
+}
+.headphonesLearnMore{
+  width: 100%;
+  height:auto;
+}
+.headphonesImgLearnMore{
+  margin-top: 150px
+}
+.row2{
+  margin-top: 20px;
+}
+.coupleLearnMore {
+  width: 540px;
+  height:auto;
+}
+.row3{
+  margin-top: 20px;
+}
+.coupleImgLearnMore{
+    margin-top: 60px;
+  }
+
+.row1,.row2,.row3,.row4,.row5{
+  width: 100%;
+}
+.videoLearnMore{
+  margin-top: 50px;
+}
+.row4{
+  margin-top: 20px;
+}
+.row5{
+  margin-top: 20px;
+}
+.modalFooter3{
+  font-size: 20px !important;
+}
+#footer {
+  position: relative;;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 280px;
+  background-color: white;
+  margin-top: 50px;
+}
+.footerContainer {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.footerContainer .text-muted {
+  margin: 20px 0;
+}
+.footertext {
+  color: #000;
+}
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Sosmed nya
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+a{
+
+  color: black !important;
+  font-family: 'Open Sans', sans-serif !important;
+
+}
+a:hover{
+  color: black;
+  text-shadow: 0 0 10px #000;
+  text-decoration: none !important;
+}
